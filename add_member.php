@@ -1,4 +1,9 @@
-<?php include ('header.php'); ?>
+<?php
+include('include/dbcon.php');
+include('session.php');
+include('header.php');
+?>
+
 
         <div class="page-title">
             <div class="title_left">
@@ -79,11 +84,11 @@
                                         <select name="branch" class="select2_single form-control" required="required" tabindex="-1" >
                                             <option value="N/A">N/A</option>
                                             <option value="CSE">CSE</option>
-                                            <option value="ME">ME</option>
-                                            <option value="EC">EC</option>
+                                            <option value="ME">MCA</option>
+                                            <!-- <option value="EC">EC</option>
                                             <option value="EN">EN</option>
                                             <option value="Civil">Civil</option>
-                                            <option value="B-pharma">B-pharma</option>
+                                            <option value="B-pharma">B-pharma</option> -->
                                             <option value="BBA">BBA</option>
                                             <option value="MBA">MBA</option>
                                         </select>

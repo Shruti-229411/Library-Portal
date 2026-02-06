@@ -2,8 +2,7 @@
 	<footer>
 
 					<div class="">
-								<p class="pull-right" align="right">&nbsp;&nbsp;&nbsp;@ Library Management System&nbsp;
-									<span class="lead"> <i class="fa fa-university"></i> Kashi Institute Of Technology</span>
+								<p class="pull-right" align="right">&nbsp;&nbsp;&nbsp;@ Library Management System
 								</p>
 					</div>
 							<div class="clearfix"></div>
@@ -40,6 +39,8 @@
     <!-- image cropping -->
     <script src="js/cropping/cropper.min.js"></script>
     <script src="js/cropping/main2.js"></script>
+    <!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
     <!-- datepicker -->
@@ -407,7 +408,10 @@
         });
     </script>
     <!-- /knob -->	
-	<?php include ('scripts.php'); ?>
+	<?php 
+    include_once 'include/helpers.php';  
+    include ('scripts.php'); 
+    ?>
 </body>
 
 </html>

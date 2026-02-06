@@ -97,7 +97,13 @@
                                         </select>  
                                     </div>
 							
-										<button name="submit" type="submit" class="btn btn-primary" style=""><i class="glyphicon glyphicon-log-in"></i> Submit</button>
+										<button name="submit" type="submit" class="btn btn-primary">
+    										<i class="glyphicon glyphicon-log-in"></i> Submit
+										</button>
+
+										<a href="book.php" class="btn btn-default" style="margin-left:5px;">
+    										<i class="glyphicon glyphicon-refresh"></i> Reset
+										</a>
 								</form>
                         	
                         </div>

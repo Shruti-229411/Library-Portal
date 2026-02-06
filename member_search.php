@@ -1,4 +1,9 @@
-<?php include ('header.php'); ?>
+<?php
+include('include/dbcon.php');
+include('member_session.php');
+include('header.php');
+?>
+
 
         <div class="page-title">
             <div class="title_left">

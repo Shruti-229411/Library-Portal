@@ -1,4 +1,8 @@
-<?php include ('include/dbcon.php');
+<?php 
+include('header.php');
+include('include/dbcon.php');
+include('member_session.php');
+
 $ID=$_GET['user_id'];
  ?>
 <?php include ('header.php'); ?>

@@ -1,386 +1,82 @@
 <?php include ('header.php'); ?>
 
-        <div class="page-title">
-            <div class="title_left">
-                <h3>
-					<small>Home /</small> About Us
-                </h3>
+<div class="page-title">
+    <div class="title_left">
+        <h3>
+            <small>Home /</small> About This Project
+        </h3>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-info-circle"></i> About Projectworlds.com</h2>
+                <div class="clearfix"></div>
             </div>
-        </div>
-        <div class="clearfix"></div>
- 
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="x_panel">
-							<br />
-							<br />
-                    <div class="x_title">
-                        <h2><i class="fa fa-info"></i> Developer Information</h2>
-                       
-                        <div class="clearfix"></div>
+            <div class="x_content">
+                <!-- content starts here -->
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Our Mission</h3>
+                        <p>
+                            Welcome to our Library Management System, where members can explore a wide collection of books, access resources easily, and stay connected with the latest arrivals and services.
+                        </p>
+                        <p>
+                            We offer a diverse range of books across various genres, ensuring that readers of all ages and interests can find the knowledge they seek in one convenient platform.
+                        </p>
                     </div>
-                    <div class="x_content">
-                        <!-- content starts here -->
-
-                <div class="" role="tabpanel" data-example-id="togglable-tabs">
-                    <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Ankesh Pandey</a>
-                        </li>
-
-                         <li role="presentation" class=""><a href="#tab_content2" id="profile-tab1" role="tab" data-toggle="tab" aria-expanded="true">Ankit Singh</a>
-                        </li>
-
-                        <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Kanhaiya Singh</a>
-                        </li>
-                        <li role="presentation" class=""><a href="#tab_content4" role="tab" id="profile-tab3" data-toggle="tab" aria-expanded="false">Anand Singh</a>
-                        </li>
-                       
-                    </ul>
-                    <div id="myTabContent" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
-							<fieldset class="pull-left" style="margin-left:230px;">
-								<legend>Personal Information</legend>
-									<dt>
-										Age
-										<ul>
-											<li>
-											20 years old
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Date of Birth
-										<ul>
-											<li>
-											September 19, 1998
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Place of Birth
-										<ul>
-											<li>
-											Varanasi -221007
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Nationality
-										<ul>
-											<li>
-											INDIAN
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Sex
-										<ul>
-											<li>
-											Male
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Contact
-										<ul>
-											<li>
-											9454192054
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-							<fieldset class="pull-right" style="margin-right:200px;">
-								<legend>Education</legend>
-									<dt>
-										Course
-										<ul>
-											<li>
-											Bachelor of Technology in CSE 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										School
-										<ul>
-											<li>
-											Gyandeep English School,Varanasi 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Graduation Year
-										<ul>
-											<li>
-											2015 – 2019
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
+                    <!-- <div class="col-md-4 text-center">
+                        <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f7f7f7;">
+                            <img src="images/projectworlds-logo.png" alt="Projectworlds Logo" style="max-width: 200px; margin-bottom: 15px;">
+                            <a href="https://www.projectworlds.com" target="_blank" class="btn btn-primary btn-block">
+                                <i class="fa fa-globe"></i> Visit Projectworlds.com
+                            </a>
                         </div>
-
-                        <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab1">
-						<div style="">
-							<fieldset class="pull-left" style="margin-left:230px;">
-								<legend>Personal Information</legend>
-									<dt>
-										Age
-										<ul>
-											<li>
-											21 years old
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Date of Birth
-										<ul>
-											<li>
-											November 29, 1997
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Place of Birth
-										<ul>
-											<li>
-											Varanasi -221005
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Nationality
-										<ul>
-											<li>
-											INDIAN
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Sex
-										<ul>
-											<li>
-											Male
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Contact
-										<ul>
-											<li>
-											8299749182
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-							<fieldset class="pull-right" style="margin-right:200px;">
-								<legend>Education</legend>
-									<dt>
-										Course
-										<ul>
-											<li>
-											Bachelor of Technology in CSE 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										School
-										<ul>
-											<li>
-											The Aryan Internation School,Varanasi 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Graduation Year
-										<ul>
-											<li>
-											2015 – 2019
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-						</div>
-                        </div>
-
-                        <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab2">
-						<div style="">
-							<fieldset class="pull-left" style="margin-left:230px;">
-								<legend>Personal Information</legend>
-									<dt>
-										Age
-										<ul>
-											<li>
-											21 years old
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Date of Birth
-										<ul>
-											<li>
-											February 14, 1998
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Place of Birth
-										<ul>
-											<li>
-											Varanasi -221106
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Nationality
-										<ul>
-											<li>
-											INDIAN
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Sex
-										<ul>
-											<li>
-											Male
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Contact
-										<ul>
-											<li>
-											8318132084
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-							<fieldset class="pull-right" style="margin-right:200px;">
-								<legend>Education</legend>
-									<dt>
-										Course
-										<ul>
-											<li>
-											Bachelor of Technology in CSE 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										School
-										<ul>
-											<li>
-											The Ideal NewStar English School , Varanasi
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Graduation Year
-										<ul>
-											<li>
-											2015 – 2019
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-						</div>
-                        </div>
-
-                         <div role="tabpanel" class="tab-pane fade" id="tab_content4" aria-labelledby="profile-tab3">
-						<div style="">
-							<fieldset class="pull-left" style="margin-left:230px;">
-								<legend>Personal Information</legend>
-									<dt>
-										Age
-										<ul>
-											<li>
-											20 years old
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Date of Birth
-										<ul>
-											<li>
-											July 05, 1998
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Place of Birth
-										<ul>
-											<li>
-											Varanasi -221010
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Nationality
-										<ul>
-											<li>
-											INDIAN
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Sex
-										<ul>
-											<li>
-											Male
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Contact
-										<ul>
-											<li>
-											9936761226
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-							<fieldset class="pull-right" style="margin-right:200px;">
-								<legend>Education</legend>
-									<dt>
-										Course
-										<ul>
-											<li>
-											Bachelor of Technology in CSE 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										School
-										<ul>
-											<li>
-											Divine Sainik School,Varanasi 
-											</li>
-										</ul>
-									</dt>
-									<dt>
-										Graduation Year
-										<ul>
-											<li>
-											2015 – 2019
-											</li>
-										</ul>
-									</dt>
-							</fieldset>
-						</div>
-                        </div>
-
-
-                        
-                        </div>
-                    </div>
-
-
+                    </div>  -->
                 </div>
 
+                <div class="ln_solid"></div>
 
-						
-                        <!-- content ends here -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Support and Inquiries</h3>
+                        <p>
+                            We value our users and aim to provide seamless assistance. For any issues or inquiries, please use the contact methods below to reach our dedicated support team.
+                        </p>
+
+                        <table class="table table-bordered" style="margin-top: 20px;">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Customer Support & Inquiries</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="width: 20%;"><strong>Call or WhatsApp</strong></td>
+                                    <td>+91 6263 056 779</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><strong>Primary Email</strong></td>
+                                    <td><a href="mailto:clg_name@gmail.com">sp01@gmail.com</a></td>
+                                </tr>
+                                <!-- <tr>
+                                    <td><strong>Live Chat (24/7)</strong></td>
+                                    <td>Please </td>
+                                </tr> -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
+
+                <!-- content ends here -->
             </div>
         </div>
+    </div>
+</div>
 
 <?php include ('footer.php'); ?>
