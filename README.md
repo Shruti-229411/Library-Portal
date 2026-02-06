@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ```
 Library-Management-System-with-Barcode
@@ -446,3 +447,6 @@ Library-Management-System-with-Barcode
 └─ view_member.php
 
 ```
+=======
+# Library-Portal
+>>>>>>> a7f6cfa5112b516a853d8301b15482753853b6f7
